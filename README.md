@@ -1,4 +1,4 @@
-# Hi, I'm Yuki 👋 Thanks for reading about me
+# Hi, I'm Yuki 👋 Thank you for taking the time to read about me.
 
 Python / PyTorch を中心に  
 **実運用を想定した機械学習・画像処理システム**を個人開発しています。
