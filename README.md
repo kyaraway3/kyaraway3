@@ -13,7 +13,7 @@ Python / PyTorch を中心に
 ## 🔧 Skills
 
 - **Language**: Python 3.10
-- **ML / CV**: PyTorch, TorchVision, OpenCV
+- **ML / CV / NLP**: PyTorch, TorchVision, OpenCV, **Transformers (Hugging Face)**
 - **Data**: NumPy, Pandas
 - **Environment**: venv, CUDA (11.8)
 - **Other**: RTSP, dotenv, GitHub
@@ -21,6 +21,30 @@ Python / PyTorch を中心に
 ---
 
 ## 📌 Featured Projects
+
+### 🆕 🛡️ ScamWall: Android Scam App Detection （Work In Progress（開発中））
+**BERT モデルを用いた詐欺アプリ検知システム（自然言語処理）**
+
+🔗 https://github.com/kyaraway3/scamwall
+
+**🚧 Status: API Implementation Phase**
+- ✅ **Model Training**: Completed (Accuracy 83.8%)
+- 🏗️ **API Server**: In Progress (FastAPI)
+
+**Tech Stack**
+- PyTorch (CUDA 12.4)
+- Transformers (BERT: `cl-tohoku/bert-base-japanese-v3`)
+- FastAPI (Planned)
+- NVIDIA GeForce RTX 3050 (GPU acceleration)
+
+**Highlights**
+- **BERT (cl-tohoku/bert-base-japanese-v3)** を採用し、日本語の文脈を考慮した高精度な分類を実現。
+- 学習データの収集・前処理からモデル構築までを一貫して実装。
+- **Accuracy 83.8%** を達成（3 Epoch）。
+- 開発環境における `FutureWarning` や依存関係（NumPy 2.x 競合など）を解消し、再現可能な学習パイプラインを構築。
+- 推論エンジンとして **FastAPI** による API サーバー化を予定。
+
+
 
 ### 🎥 PyTorch RTSP Person Detection
 **RTSP カメラ映像から人物をリアルタイム検知し、検知前後の映像を自動保存**
