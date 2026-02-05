@@ -44,7 +44,7 @@ Python / PyTorch を中心に
 - 開発環境における `FutureWarning` や依存関係（NumPy 2.x 競合など）を解消し、再現可能な学習パイプラインを構築。
 - 推論エンジンとして **FastAPI** による API サーバー化を予定。
 
-
+---
 
 ### 🎥 PyTorch RTSP Person Detection
 **RTSP カメラ映像から人物をリアルタイム検知し、検知前後の映像を自動保存**
