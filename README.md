@@ -10,40 +10,40 @@ Python / PyTorch を中心に
 
 ---
 
-## 🔧 Skills
+### Languages & Frameworks
+- **Language**: Python 3.10, SQL, Google Apps Script
+- **ML / DL**: PyTorch, Transformers (Hugging Face), Scikit-learn, LightGBM
+- **LLM / Generative AI**: **Gemini 1.5 Flash (API Integration), Prompt Engineering**
+- **CV / NLP**: OpenCV, BERT (v3)
+- **API**: FastAPI, Uvicorn
 
-- **Language**: Python 3.10
-- **ML / CV / NLP**: PyTorch, TorchVision, OpenCV, **Transformers (Hugging Face)**
-- **Data**: NumPy, Pandas
-- **Environment**: venv, CUDA (11.8)
-- **Other**: RTSP, dotenv, GitHub
+### DevOps & Infrastructure
+- **Cloud**: Google Cloud Platform (Cloud Run, Artifact Registry, Cloud Storage)
+- **Container**: Docker (Environment Isolation, Optimized for CPU/GPU)
+- **Tools**: Git/GitHub, CUDA (11.8/12.4), venv, RTSP, dotenv
 
 ---
 
 ## 📌 Featured Projects
 
-### 🆕 🛡️ ScamWall: Android Scam App Detection （Work In Progress（開発中））
+### 🆕 🛡️ ScamWall: AI-Powered Hybrid Scam App Detection （Work In Progress（開発中））
 **BERT モデルを用いた詐欺アプリ検知システム（自然言語処理）**
 
 🔗 https://github.com/kyaraway3/scamwall
 
-**🚧 Status: API Implementation Phase**
-- ✅ **Model Training**: Completed (Accuracy 83.8%)
-- 🏗️ **API Server**: In Progress (FastAPI)
+- **Hybrid AI Architecture**: 
+  - 1次判定（高速スクリーニング）：**BERT** によるテキストベクトル分析。
+  - 2次判定（高度推論）：**LLM (Gemini 1.5 Flash)** による文脈解析と「詐欺の根拠」の生成。
+  - **Cost & Speed Optimization**: 判定難易度に応じた階層化推論により、APIコストの削減と低レイテンシを両立。
+- **Cloud Native**: **Google Cloud Run** へデプロイし、サーバーレス環境での本番稼働を実現。
+- **Status**: Backend API Completed ✅ / Android Client In Progress 🏗️
+- **Highlights**: 
+  - 自作データセットによる学習で **Accuracy 83.8%** を達成。
+  - NumPy 2.x 競合などの依存関係トラブルを Docker 構成で解消し、再現可能なパイプラインを構築。
+## 💼 Professional Background
 
-**Tech Stack**
-- PyTorch (CUDA 12.4)
-- Transformers (BERT: `cl-tohoku/bert-base-japanese-v3`)
-- FastAPI (Planned)
-- NVIDIA GeForce RTX 3050 (GPU acceleration)
-
-**Highlights**
-- **BERT (cl-tohoku/bert-base-japanese-v3)** を採用し、日本語の文脈を考慮した高精度な分類を実現。
-- 学習データの収集・前処理からモデル構築までを一貫して実装。
-- **Accuracy 83.8%** を達成（3 Epoch）。
-- 開発環境における `FutureWarning` や依存関係（NumPy 2.x 競合など）を解消し、再現可能な学習パイプラインを構築。
-- 推論エンジンとして **FastAPI** による API サーバー化を予定。
-
+- **Mathematics**: 大学にて数学（線形代数・常微分方程式）を専攻。統計的アプローチの基礎。
+- **Mobile Industry (13 years)**: 携帯キャリアショップ運営に従事。現場の課題を Python/GAS で自動化し、年間200時間の工数削減を達成。この経験が「現場で使えるAI」へのこだわりの源泉です。
 ---
 
 ### 🎥 PyTorch RTSP Person Detection
