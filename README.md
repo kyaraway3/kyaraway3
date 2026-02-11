@@ -7,6 +7,10 @@ Python / PyTorch を中心に
 **依存関係・実行環境・運用安定性**まで含めて設計することを重視しています。
 
 リアルタイム映像処理・GPU 推論・現場運用を意識した構成に関心があります。
+## 💼 Professional Background
+
+- **Mathematics**: 大学にて数学（線形代数・常微分方程式）を専攻。統計的アプローチの基礎。
+- **Mobile Industry (13 years)**: 携帯キャリアショップ運営に従事。現場の課題を Python/GAS で自動化し、年間200時間の工数削減を達成。この経験が「現場で使えるAI」へのこだわりの源泉です。
 
 ---
 
@@ -40,10 +44,7 @@ Python / PyTorch を中心に
 - **Highlights**: 
   - 自作データセットによる学習で **Accuracy 83.8%** を達成。
   - NumPy 2.x 競合などの依存関係トラブルを Docker 構成で解消し、再現可能なパイプラインを構築。
-## 💼 Professional Background
 
-- **Mathematics**: 大学にて数学（線形代数・常微分方程式）を専攻。統計的アプローチの基礎。
-- **Mobile Industry (13 years)**: 携帯キャリアショップ運営に従事。現場の課題を Python/GAS で自動化し、年間200時間の工数削減を達成。この経験が「現場で使えるAI」へのこだわりの源泉です。
 ---
 
 ### 🎥 PyTorch RTSP Person Detection
