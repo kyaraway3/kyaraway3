@@ -30,7 +30,7 @@ Python / PyTorch を中心に
 
 ## 📌 Featured Projects
 
-### 🆕 🛡️ ScamWall: AI-Powered Hybrid Scam App Detection （Work In Progress（開発中））
+### 🆕 🛡️ ScamWall: AI-Powered Hybrid Scam App Detection （2026/02/13完走））
 **BERT モデルを用いた詐欺アプリ検知システム（自然言語処理）**
 
 🔗 https://github.com/kyaraway3/scamwall
